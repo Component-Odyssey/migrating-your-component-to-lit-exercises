@@ -72,8 +72,11 @@ class ImageCarousel extends LitElement {
 
   render() {
     return html`
-      <link href="reset.css" rel="stylesheet" />
-      <link href="styles.css" rel="stylesheet" />
+      <style>
+        @import url('./reset.css');
+        @import url('./styles.css');
+      </style>
+
       <div class="wrapper">
         <div class="carousel">
           <slot class="flex-row image-wrapper" />

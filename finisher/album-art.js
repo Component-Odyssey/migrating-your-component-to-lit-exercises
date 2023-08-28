@@ -21,8 +21,10 @@ class AlbumArt extends LitElement {
 
   render() {
     return html`
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+      @import url('./reset.css');
+      @import url('./styles.css');
+    </style>
 
     <div>
       <img class="square-aspect-ratio" src="${this.imgSrc}" alt="${this.alt}" />
