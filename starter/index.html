@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component Odyssey</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Work+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="padding-h-4 padding-v-2">
+    <h2 class="title">
+      Albums of 2023
+    </h2>
+    <hr />
+
+    <div class="padding-v-2 grid">
+      <image-carousel>
+        <album-art img-src="https://component-odyssey.s3.amazonaws.com/evelyn-hunter-ophelia.jpg"
+          alt="Evelyn Hunter album cover" artist-name="Evelyn Hunter" album-name="Ophelia"></album-art>
+        <album-art img-src="https://component-odyssey.s3.amazonaws.com/fastfall-the-ebon-enigmatique.png"
+          alt="Fastfall album cover" artist-name="Fastfall" album-name="The Ebon Enigmatique"></album-art>
+
+        <album-art img-src="https://component-odyssey.s3.amazonaws.com/jakayla-toney-self-titled.jpg"
+          alt="Jakalya Toney album cover" artist-name="Jakayla Toney" album-name="Self titled"></album-art>
+
+        <album-art img-src="https://component-odyssey.s3.amazonaws.com/romy-melny-nature.jpg"
+          alt="Romy Melny album cover" artist-name="Romy Melny" album-name="Nature"></album-art>
+
+        <album-art img-src="https://component-odyssey.s3.amazonaws.com/w95-959595.wav.png" alt="95 album cover"
+          artist-name="9 5" album-name="959595.wav"></album-art>
+
+        <album-art img-src="https://component-odyssey.s3.amazonaws.com/sable-dirge-craiyon.png" alt="Sable album cover"
+          artist-name="Sable" album-name="Dirge"></album-art>
+      </image-carousel>
+    </div>
+  </main>
+
+  <script type="module">
+    // Exercise 1
+    import './album-art.js';
+
+    // Exercise 2
+    import './image-carousel.js';
+  </script>
+</body>
+
+</html>
