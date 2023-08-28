@@ -13,7 +13,7 @@ import { LitElement, css, html } from 'lit'
 // This ensures we don't break backwards compatibility with the vanilla web component.
 
 /* 
-  Note: The bad practice of add an <link /> in the html
+  Note: While we're doing it for this lesson, it's a bad practice add a <link rel="stylesheet" /> in the html function
 */
 
 class ImageCarousel extends LitElement {
