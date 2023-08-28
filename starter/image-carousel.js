@@ -1,3 +1,19 @@
+// Step 0. Import `LitElement`, `html`, and `css from `lit`
+// Step 1. Extend the LitElement base class
+// Step 2. Add the `render` function to return the markup
+// Step 3. Import the styles into the file
+// Step 4. Add `static properties` to define the property
+// Step 5. Use the properties in the markup within the `render` function
+// Step 6. Add the click event listener to the button
+
+
+// Tip, use the `attribute` option for the property to change the attribute to use camel case, e.g., `imgSrc` to `img-src`.
+// This ensures we don't break backwards compatibility with the vanilla web component.
+
+/* 
+  Note: While we're doing it for this lesson, it's a bad practice add a <link rel="stylesheet" /> in the html function
+*/
+
 const template = document.createElement('template')
 
 template.innerHTML = `
