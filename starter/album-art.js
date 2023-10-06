@@ -1,7 +1,7 @@
 // Step 0. Import `LitElement`, `html`, and `css from `lit`
 // Step 1. Extend the LitElement base class
 // Step 2. Add the `render` function to return the markup
-// Step 3. Add `static styles` to apply the styles
+// Step 3. Add the styles within the `render` function (bad practice but temporary!)
 // Step 4. Add `static properties` to define the properties
 // Step 5. Use the properties in the markup within the `render` function
 
