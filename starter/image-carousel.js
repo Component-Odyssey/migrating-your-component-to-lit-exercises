@@ -12,10 +12,6 @@
 // This ensures we don't break backwards compatibility with the vanilla web component.
 // Bonus: You can remove calls to getAttribute/setAttribute and instead read/write to the property directly
 
-/* 
-  Note: While we're doing it for this lesson, it's a bad practice add a <link rel="stylesheet" /> in the html function
-*/
-
 const template = document.createElement('template')
 
 template.innerHTML = `

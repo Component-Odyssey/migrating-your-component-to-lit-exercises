@@ -8,10 +8,6 @@
 // Tip: use the `attribute` option for the property to change the attribute to use camel case, e.g., `imgSrc` to `img-src`.
 // This ensures we don't break backwards compatibility with the vanilla web component.
 
-/* 
-  Note: While we're doing it for this lesson, it's a bad practice add a <link rel="stylesheet" /> in the html function
-*/
-
 const template = document.createElement('template');
 
 template.innerHTML = `
