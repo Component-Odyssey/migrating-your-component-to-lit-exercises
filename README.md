@@ -37,6 +37,14 @@ Once you've successfully migrated the component and test that it's working move 
 
 This one is a little more complicated, but you should be able to complete it using the knowledge from the last few lessons.
 
+## Resources
+
+If you get stuck, or haven't memorised the Lit syntax, it's worth reviewing the following documentation:
+
+- [Lit Properties](https://lit.dev/docs/components/properties/)
+- [Lit Lifecycle Methods](https://lit.dev/docs/components/lifecycle/)
+- [Lit Events](https://lit.dev/docs/components/events/)
+
 ## Troubleshooting
 
 If you have any problems, then please reach out in the Discord.
